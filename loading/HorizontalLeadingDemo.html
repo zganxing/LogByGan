@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>横向的进度条</title>
+	<style type="text/css">
+		.loading{
+			width: 100%;
+			height: 100%;
+			position:fixed;
+			left: 0;
+			top: 0;
+			background-color: #fff;
+			z-index: 999;
+		}
+		.loading .pic{
+			width: 100%;
+			height: 5px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #F33;
+		}
+	</style>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"0%"},100)
+	</script>
+</head>
+<body>
+	<div class="loading">
+		<div class="pic">
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"10%"},100)
+	</script>
+	<header>
+		<img src="http://b198.photo.store.qq.com/psb?/V13bxn9W3VFB68/Fu*DbS7YDWKbnDonDEjL6NBosOy5H5M5C0UDIjVBzjg!/b/dMYAAAAAAAAA&bo=OARUBqAO8BUFAAY!&rf=viewer_4">
+	</header>
+
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"30%"},100)
+	</script>
+	<section class="banner">
+		<img src="http://a3.qpic.cn/psb?/V13bxn9W3VFB68/q*znknus0PmYK1Vocdj*DHhrq7okcpEmbsrBm78aFXM!/b/dOMAAAAAAAAA&bo=OARUBqAO8BUBCQs!&rf=viewer_4">
+	</section>
+
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"50%"},100)
+	</script>
+	<section class="about">
+		<img src="http://a3.qpic.cn/psb?/V13bxn9W3VFB68/saowaH*pB48YcLX3chHEprpSwjHc4G0EbedFr16Fyec!/b/dH8BAAAAAAAA&bo=OARUBqAO8BUBCQs!&rf=viewer_4">
+	</section>
+
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"70%"},100)
+	</script>
+	<section class="pro">
+		<img src="http://a2.qpic.cn/psb?/V13bxn9W3VFB68/ULQhFmNZAg8EFaU.j39uLUkywmQNnq4ndeTLavnkrcI!/b/dG8BAAAAAAAA&bo=OARUBsoMLxMFCb4!&rf=viewer_4">
+	</section>
+
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"80%"},100)
+	</script>
+	<section class="news">
+		<img src="http://a3.qpic.cn/psb?/V13bxn9W3VFB68/JCRyPEqdhCoDwzHutBx9XjLRwIX64wNBOem.kUSd4dg!/b/dNoAAAAAAAAA&bo=OARUBqAO8BUFAAY!&rf=viewer_4">
+	</section>
+
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"95%"},100)
+	</script>
+	<footer>
+		<img src="http://a2.qpic.cn/psb?/V13bxn9W3VFB68/MTsfEcwlzkmLbXDqsPWwEhjo.wY5P2B8hABk9ktwCEQ!/b/dOUAAAAAAAAA&bo=OARUBqAO8BUFAAY!&rf=viewer_4">
+	</footer>
+
+	<script type="text/javascript">
+		$(".loading .pic").animate({width:"100%"},100,function(){
+			$(".loading").fadeOut()
+		})
+	</script>
+</body>
+</html>
